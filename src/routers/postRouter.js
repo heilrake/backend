@@ -1,5 +1,5 @@
 import Router from 'express';
-import { create, getAll, getLastTags, getOne, remove } from '../controllers/postController.js';
+import { create, getAll, getLastTags, getOne, remove } from '../../controllers/postController.js';
 
 import checkAuth from'../middleware/authMiddleware.js';
 import { postCreateValidation } from '../validators/postValidation.js';
